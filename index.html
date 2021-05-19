@@ -9,29 +9,31 @@
 </head>
 <body>
     <main class="container">
-        <div id="start-btn">
+        <id id="start-btn"> 
             <h1>Javascript Quiz</h1>
             <p>
                 Do your best to answer all the questions within the time limit! 
                     good luck!
             </p> 
             <div class="control">
-                <button class="startBtn">
-                    start
-                </button>
-            </div>
-        </div> 
+                <button class="startBtn">start</button>
+            </div> 
+            </id>
+        
         <div id="question-container" class="hide"> 
             <h2 id="question">Question</h2>
             <div id="answer-btn">
-                <button class="btn">Answer</button>
-                <button class="btn">Answer</button>
-                <button class="btn">Answer</button>
-                <button class="btn">Answer</button>
-                
             </div>
         </div>
-    </main>
+    </main> 
+    <div id="highscore" class="hide">
+        <h1 id="total">0</h1> 
+        <form class="container">
+            <h2 id="player">Enter Name</h2>
+            <input type="text" name="name" placeholder="Your Name"> 
+            <button class="btn" id="saveBtn" type="submit">Save</button>
+        </form>
+    </div>
     <script src="./js/main.js"></script>
 </body>
 </html> 
