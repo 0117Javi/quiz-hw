@@ -26,13 +26,19 @@
             </div>
         </div>
     </main> 
-    <div id="highscore" class="hide">
+    <div id="highscore" class="hide"> 
+        <h2>Name   |   High Score</h2>
+        <div id='winners'></div>
         <h1 id="total"></h1> 
         <form class="container">
             <h2 id="player">Enter Name:</h2>
             <input type="text" name="name" id="nameField" placeholder="Your Name"> 
-            <button class="btn" id="saveBtn" type="submit">Save</button>
+            <button class="btn" id="saveBtn">Save</button>
         </form>
+    </div> 
+    <div id="playAgain" class="hide"> 
+       
+        <button class="btn" id="rePlay">play again?</button>
     </div>
     <script src="./js/main.js"></script>
 </body>
